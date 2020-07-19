@@ -1,12 +1,14 @@
 html{
-    overflow: hidden;
+    height: 100%;
+    min-width: 400px;
+    overflow: visible;
 }
 
 body{
     height: 100%;
     min-width: 400px;
     font-size: 14px;
-    font-family:arial,sans-serif;
+    font-family: arial,sans-serif;
     margin: 0px;
     padding: 0px;
     display: flex;
@@ -38,11 +40,26 @@ a.store-link{
     color:blue;
 }
 
+.logo-box{
+    min-height: 92px;
+    max-height: 290px;
+    padding-top: 60px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 0px;
+    height: calc(100% - 560px);
+}
+
 .logo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10em;
+    display: flex;
+}
+
+.google{
+    display: flex;
+    object-fit: contain;
+    object-position: bottom;
 }
 
 .header{
@@ -114,24 +131,33 @@ a.store-link{
 }
 
 .search-form{
-    display: block;
-    padding: 20px;
+    display: flex;
+    width: 90%;
+    padding: 0px;
     position: relative;
     text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .search-bar{
-    display: inline-block;
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-around;
+    align-items: center;
     position: absolute;
-    width: 584px;
-    height: 35px;
+    width: 100%;
+    height: 36px;
 }
 
 #text-input{
     width: 100%;
-    height: 35px;
+    height: 36px;
     border-radius: 50px;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     left: 0;
     bottom: 0px;
@@ -139,24 +165,26 @@ a.store-link{
 }
 
 #magglass{
-    width: 3%;
+    width: 16px;
     position: absolute;
-    bottom: 5px;
-    left: 0;
+    left: 10px;
+    bottom: 12px;
     z-index: 1;
 }
 
 #microphone{
-    width: 3%;
+    width: 16px;
     position: absolute;
-    bottom: 5px;
-    right: 0;
+    right: 10px;
+    bottom: 12px;
     z-index: 1;
 }
 
 .buttons{
     height: 70px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 18px 0 0 0;
     text-align: center;
     position: absolute;
@@ -196,6 +224,13 @@ a.store-link{
     cursor: pointer;
     user-select: none;
 }
+
+.below-text{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
 
 .footer-box{
     display: block;
