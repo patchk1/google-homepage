@@ -8,3 +8,6 @@ Session two was used to add final HTML elements and add more robust CSS styling.
 
 Session three was used to fix issues with styling.
 A better understanding of `display:flex;` was learned during this session.
+
+Session four was used to add accessibility and to add comments throughout.
+<header> and <footer> were learned during this session.
