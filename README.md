@@ -11,3 +11,8 @@ A better understanding of `display:flex;` was learned during this session.
 
 Session four was used to add accessibility and to add comments throughout.
 `<header>` and `<footer>` were learned during this session.
+
+Session five was used to begin the search page portion of the project.
+Initial elements were added.
+
+Session six was used to add remaining elements and add classes to all elements.
