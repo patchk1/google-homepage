@@ -16,3 +16,5 @@ Session five was used to begin the search page portion of the project.
 Initial elements were added.
 
 Session six was used to add remaining elements and add classes to all elements.
+
+Session seven was used to add links to `<a>` elements and initialize styling.
