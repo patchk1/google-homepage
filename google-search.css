@@ -1,0 +1,134 @@
+html{
+    height: 100%;
+    font-family: arial,sans-serif;
+    overflow: visible;
+    display: block;
+}
+
+body{
+    height: 100%;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+/*link styling*/
+a.result-link:link{
+    cursor: pointer;
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+a.result-link:hover{
+    text-decoration: underline;
+}
+
+a.result-link:visited{
+    color: #609;
+    text-decoration: none;
+}
+
+a.footer-link:link{
+    cursor: pointer;
+    color: #5f6368;
+    text-decoration: none;;
+}
+
+a.footer-link:visited{
+    color: #5f6368;
+}
+
+a.footer-link:hover{
+    color: black;
+}
+/*end link styling*/
+
+/*header styling*/
+.header-box{}
+
+.header-left{}
+
+.img-link{}
+
+.search-bar{}
+
+#magglas{}
+
+#microphone{}
+
+#text-box{}
+
+.header-right{}
+
+.apps{}
+
+.account{}
+/*end header styling*/
+
+/*main styling*/
+.type-select{}
+
+.ts-left{}
+
+#all{}
+
+#news{}
+
+#maps{}
+
+#videos{}
+
+#shopping{}
+
+#more{}
+
+.ts-right{}
+
+#settings{}
+
+#tools{}
+
+.search-results{}
+
+.result-number{}
+
+.result-one{}
+
+.result-two{}
+
+.result-three{}
+
+.result-four{}
+
+.result-title{}
+
+.result-link{}
+
+.result-desc{}
+
+.below-links{}
+
+.embedded-videos{}
+    /*EMBEDDED VIDEO CHILD ELEMENTS GO HERE*/
+
+.related{}
+    /*RELATED SEARCH CHILD ELEMENTS GO HERE*/
+
+.page-select-box{}
+
+.page-select{}
+/*PAGE SELECT ELEMENTS GO HERE*/
+
+/*end main styling*/
+
+/*footer styling*/
+.footer-box{}
+
+.footer-top{}
+
+.footer-bottom{}
+
+.footer-link{}
+/*end footer stylig*/
