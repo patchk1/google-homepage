@@ -20,3 +20,8 @@ Session six was used to add remaining elements and add classes to all elements.
 Session seven was used to add links to `<a>` elements and initialize styling.
 
 Session eight was used to make minor changes to html and add all styling.
+
+This project was completed over eight sessions. This project utilized HTML and CSS exclusively.
+Much of the functionality of the original homepage and search page were ignored, as well as some
+HTML elements and styling. The overall lessons learned from this project were how to use HTML to
+build a webpage and how to use CSS to style the HTML elements. 
