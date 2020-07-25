@@ -201,12 +201,13 @@ form{
     font-size: 14px;
     margin: 11px 4px;
     padding: 0 16px;
-    line-height: 27px;
+    line-height: 38px;
     height: 36px;
     min-width: 54px;
     text-align: center;
     cursor: pointer;
     user-select: none;
+    text-decoration: none;
 }
 
 #lucky-button{
